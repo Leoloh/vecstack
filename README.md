@@ -104,6 +104,8 @@ S_test = stack.transform(X_test)
 # Use 2nd level estimator with stacked features
 ```
 
+### 14. Hello. What is better: `blending` (weited average) or `stacking` (2nd level model)?
+
 # Stacking concept
 
 1. We want to predict train set and test set with some 1st level model(s), and then use these predictions as features for 2nd level model(s).  
